@@ -65,12 +65,6 @@ my-lab/
 - Docker (for App Runner deployment)
 - Python 3.12+
 
-### Clone the repo
-
-```bash
-git clone https://github.com/kobyal/my-lab.git
-cd my-lab
-```
 
 ### Install dependencies
 
@@ -124,8 +118,4 @@ bash scripts/destroy.sh
 
 Deployed to **eu-west-1**. Uses cross-region inference profile `eu.amazon.nova-pro-v1:0`.
 
-## Workshop
 
-This repo is the source for a 2-session (3h each) hands-on workshop on building multi-agent apps with LangGraph on AWS.
-
-Lecture notes (Hebrew and English): [`docs/curriculum/`](docs/curriculum/)
