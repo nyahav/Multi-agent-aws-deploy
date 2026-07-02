@@ -18,7 +18,7 @@ POST /ask → Domain Classifier (api.py) → LangGraph Graph
 
 **Key design decisions:**
 - **Domain restriction** is enforced in `api.py` via a lightweight boto3 `converse()` YES/NO classifier (not a Bedrock DENY topic, which blocks in-domain questions)
-- **Bedrock Guardrail v4** (`40rxiyd6epgz`) — content filters all HIGH + contextual grounding 0.75 threshold
+- **Bedrock Guardrail v4**  — content filters all HIGH + contextual grounding 0.75 threshold
 - **LLM is skipped entirely** when the KB has no relevant answer (prevents hallucination)
 - **Self-improving loop** — A2I human answers are written back to the KB and re-indexed automatically via EventBridge + Lambda
 
