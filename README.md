@@ -2,7 +2,6 @@
 
 A production-ready multi-agent pipeline that answers customer support questions using LangGraph, Amazon Bedrock, Amazon Comprehend, and SageMaker A2I.
 
-Built as a hands-on workshop lab demonstrating real-world multi-agent architecture on AWS.
 
 ![Architecture](docs/architecture.png)
 
